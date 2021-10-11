@@ -12,7 +12,7 @@ typedef struct
     size_t size;
 } uint1024_t;
 
-uint1024_t from_uint(unsigned int x)
+uint1024_t from_uint(unsigned int x) //
 {
     int sz;
     if (x >= base) sz = 2;
